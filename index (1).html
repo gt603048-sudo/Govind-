@@ -1,0 +1,298 @@
+<!-- ==========================================================
+  HOW TO EDIT (beginner guide)
+  1. Text: change any words between the > < tags, e.g. <h1>Your headline</h1>
+  2. Colors & fonts: open style.css and change the values at the very top.
+  3. Email, phone, form settings: open script.js and edit the SITE box at the top.
+  Look for the comments that say "EDIT:" in this file.
+=========================================================== -->
+<title>Lumen Studio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<!-- EDIT: SEO. These are what Google and social media show -->
+<meta name="description" content="Lumen Studio designs and builds fast, beautiful websites and brands for growing businesses. Get a free project quote today.">
+<meta name="keywords" content="web design, website development, branding, UI design">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#F6F7F4">
+<link rel="canonical" href="https://www.yourwebsite.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lumen Studio - Websites and brands that work">
+<meta property="og:description" content="We design and build fast, beautiful websites for growing businesses.">
+<meta property="og:url" content="https://www.yourwebsite.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Lumen Studio","description":"Web design, development and branding studio.","url":"https://www.yourwebsite.com/","email":"hello@yourcompany.com"}
+</script>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="Lumen Studio home">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="12" fill="var(--accent)"/><circle cx="13" cy="13" r="5" fill="var(--bg)"/></svg>
+      <span>Lumen</span>
+    </a>
+    <nav id="menu" class="menu" aria-label="Main">
+      <!-- EDIT: menu links. href must match a section id below -->
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="bar-actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="btn btn-sm hide-sm" href="#contact">Get a quote</a>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HOME / HERO ============ -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Web design and branding studio</p>
+      <!-- EDIT: main headline -->
+      <h1>Websites that make your business <em>impossible to ignore.</em></h1>
+      <p class="lead">We design and build fast, good-looking websites that turn visitors into customers. From first sketch to launch in as little as three weeks.</p>
+      <div class="cta-row">
+        <a class="btn" href="#contact">Start your project</a>
+        <a class="btn btn-ghost" href="#work">See our work</a>
+      </div>
+      <dl class="stats">
+        <div><dt>Projects launched</dt><dd><span data-count="120">120</span>+</dd></div>
+        <div><dt>Happy clients</dt><dd><span data-count="64">64</span></dd></div>
+        <div><dt>Average page load</dt><dd><span data-count="1">1</span>s</dd></div>
+      </dl>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="card c1"><i></i><b></b><b class="s"></b></div>
+      <div class="card c2"><div class="bars"><u></u><u></u><u></u><u></u><u></u></div></div>
+      <div class="card c3"><span class="dot"></span><b></b><b class="s"></b></div>
+      <div class="orb"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">What we do</p>
+      <h2>Everything you need to look great online</h2>
+    </div>
+    <div class="grid3">
+      <!-- EDIT: copy one <article> block to add another service -->
+      <article class="service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>
+        <h3>Website design</h3>
+        <p>Clean, modern layouts that look sharp on every screen and guide people to take action.</p>
+      </article>
+      <article class="service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+        <h3>Development</h3>
+        <p>Hand-written HTML, CSS and JavaScript. No bloat, so your pages load fast and rank well.</p>
+      </article>
+      <article class="service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18M3 12h18"/></svg>
+        <h3>SEO setup</h3>
+        <p>Clear structure, fast speed and the right tags so search engines understand your business.</p>
+      </article>
+      <article class="service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5zM3 13l9 5 9-5"/></svg>
+        <h3>Brand identity</h3>
+        <p>Logo, colors and type that make your business feel consistent everywhere people meet it.</p>
+      </article>
+      <article class="service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+        <h3>Mobile first</h3>
+        <p>Most visitors arrive on a phone. We design for the small screen first, then scale up.</p>
+      </article>
+      <article class="service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-3-6.2M20 4v5h-5"/></svg>
+        <h3>Care plans</h3>
+        <p>Updates, backups and small changes handled monthly, so your site never goes stale.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK / PORTFOLIO ============ -->
+<section class="section tint" id="work">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Selected work</p>
+      <h2>Recent projects</h2>
+      <p class="sub">Sample projects. Replace the colored tiles with your own images (see the guide at the top of this file).</p>
+    </div>
+    <div class="filters reveal" role="group" aria-label="Filter projects">
+      <button class="chip is-on" type="button" data-filter="all">All</button>
+      <button class="chip" type="button" data-filter="web">Websites</button>
+      <button class="chip" type="button" data-filter="brand">Branding</button>
+      <button class="chip" type="button" data-filter="app">Apps</button>
+    </div>
+    <div class="grid3 projects" id="projects">
+      <!-- EDIT: data-cat must be web, brand or app. PHOTO: inside <div class="thumb">, delete the <span></span> and put <img src="your-photo.jpg" alt="Describe it" loading="lazy"> -->
+      <a class="project" href="#contact" data-cat="web" style="--a:#FF7A59;--b:#FFC37A">
+        <div class="thumb"><span></span></div><h3>Harbor Coffee</h3><p>Online store website</p>
+      </a>
+      <a class="project" href="#contact" data-cat="brand" style="--a:#2B5BFF;--b:#7AD3FF">
+        <div class="thumb"><span></span></div><h3>Bluepeak Legal</h3><p>Brand identity</p>
+      </a>
+      <a class="project" href="#contact" data-cat="app" style="--a:#14A37F;--b:#B4F0C8">
+        <div class="thumb"><span></span></div><h3>FitTrack</h3><p>Mobile app interface</p>
+      </a>
+      <a class="project" href="#contact" data-cat="web" style="--a:#7A3EFF;--b:#FF8FD0">
+        <div class="thumb"><span></span></div><h3>Orbit Dental</h3><p>Clinic website</p>
+      </a>
+      <a class="project" href="#contact" data-cat="brand" style="--a:#E8A200;--b:#FFE08A">
+        <div class="thumb"><span></span></div><h3>Marigold Bakery</h3><p>Logo and packaging</p>
+      </a>
+      <a class="project" href="#contact" data-cat="app" style="--a:#E8472B;--b:#FFB199">
+        <div class="thumb"><span></span></div><h3>QuickBill</h3><p>Invoicing dashboard</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section" id="pricing">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Pricing</p>
+      <h2>Simple plans, no surprises</h2>
+      <p class="sub">Sample prices. Change the plans, amounts and features below to match your business.</p>
+    </div>
+    <div class="grid3 plans">
+      <!-- EDIT: data-plan is the name shown in the contact form when someone clicks the button -->
+      <article class="plan reveal">
+        <h3>Starter</h3>
+        <p class="price">&#8377;14,999 <small>one time</small></p>
+        <ul><li>1 page website</li><li>Mobile friendly design</li><li>Contact form</li><li>1 round of changes</li></ul>
+        <button class="btn btn-ghost" type="button" data-plan="Starter">Choose Starter</button>
+      </article>
+      <article class="plan best reveal">
+        <span class="tag">Most popular</span>
+        <h3>Business</h3>
+        <p class="price">&#8377;34,999 <small>one time</small></p>
+        <ul><li>Up to 6 pages</li><li>Custom design and animations</li><li>SEO setup</li><li>3 rounds of changes</li><li>30 days free support</li></ul>
+        <button class="btn" type="button" data-plan="Business">Choose Business</button>
+      </article>
+      <article class="plan reveal">
+        <h3>Custom</h3>
+        <p class="price">Let's talk</p>
+        <ul><li>Online store or web app</li><li>Branding and logo</li><li>Monthly care plan</li><li>Priority support</li></ul>
+        <button class="btn btn-ghost" type="button" data-plan="Custom">Get a quote</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <p class="eyebrow">About us</p>
+      <h2>A small team that cares about the details</h2>
+      <p class="sub">We are a team of designers and developers who believe a website should be simple, quick and honest. You work directly with the people building your site, with no account managers in between.</p>
+      <a class="btn btn-ghost" href="#contact">Talk to us</a>
+      <!-- PHOTO: to add a photo here, remove the arrows around the next line and put your file name in src.
+      <img class="about-photo" src="about.jpg" alt="Our team at work" loading="lazy" width="800" height="600">
+      -->
+    </div>
+    <ol class="steps reveal">
+      <li><b>Discover</b><span>A short call to learn your goals, customers and budget.</span></li>
+      <li><b>Design</b><span>You see a clickable design within one week.</span></li>
+      <li><b>Build</b><span>We code it, test it on real phones and speed-tune it.</span></li>
+      <li><b>Launch</b><span>We go live together and train you to edit it yourself.</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section tint" id="faq">
+  <div class="wrap narrow">
+    <div class="head reveal">
+      <p class="eyebrow">Questions</p>
+      <h2>Frequently asked</h2>
+    </div>
+    <div class="faq reveal">
+      <!-- EDIT: copy one <details> block to add a question -->
+      <details open><summary>How long does a website take?</summary><p>Most sites launch in 3 to 5 weeks, depending on the number of pages and how fast we get your content.</p></details>
+      <details><summary>What does it cost?</summary><p>Every project is quoted after a short call. Send us a message and we reply with a clear price within one business day.</p></details>
+      <details><summary>Can I edit the site myself?</summary><p>Yes. We build it so you can change text, images and colors without touching complex code, and we show you how.</p></details>
+      <details><summary>Will my site work on phones?</summary><p>Always. Every page is built mobile first and tested on real devices.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <p class="eyebrow">Contact</p>
+      <h2>Tell us about your project</h2>
+      <p class="sub">Fill in the form and we reply within one business day.</p>
+      <ul class="contact-list">
+        <li><span>Email</span><strong data-site="email">hello@yourcompany.com</strong><button class="copy" type="button" data-copy="email">Copy</button></li>
+        <li><span>Phone</span><strong data-site="phone">+91 98765 43210</strong><button class="copy" type="button" data-copy="phone">Copy</button></li>
+        <li><span>Hours</span><strong data-site="hours">Mon to Fri, 10am to 6pm</strong></li>
+      </ul>
+    </div>
+    <form class="form reveal" id="contactForm" novalidate>
+      <div class="field">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+        <small class="err" id="err-name"></small>
+      </div>
+      <div class="field">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <small class="err" id="err-email"></small>
+      </div>
+      <div class="field">
+        <label for="service">What do you need?</label>
+        <select id="service" name="service">
+          <option>Website design</option><option>Development</option><option>Branding</option><option>Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <small class="err" id="err-message"></small>
+      </div>
+      <button class="btn btn-block" type="submit" id="sendBtn">Send message</button>
+      <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap foot">
+    <p>&copy; <span id="year">2026</span> Lumen Studio. All rights reserved.</p>
+    <nav aria-label="Footer">
+      <a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a>
+      <!-- EDIT: replace # with your real social links -->
+      <a href="#top" id="toTop">Back to top</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="script.js" defer></script>
